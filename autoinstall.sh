@@ -13,3 +13,5 @@ sudo pacman -S nmap -y
 sudo pacman -S dsniff -y
 
 sudo pacman -S wireshark-qt -y
+
+sudo pacman -S gimp
