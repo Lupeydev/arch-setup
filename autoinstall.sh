@@ -16,4 +16,6 @@ sudo pacman -S wireshark-qt -y
 
 sudo pacman -S gimp
 
+sudo pacman -S fastfetch
+
 flatpak install flathub org.vinegarhq.Sober
