@@ -1,3 +1,6 @@
+echo "make sure to uncomment multilib in /etc/pacman.conf"
+read -p "Press [Enter] key to continue..."
+
 paru -S steam -y
 
 paru -S vesktop -y
