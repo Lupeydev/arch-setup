@@ -11,6 +11,8 @@ paru -S uabea -y
 
 paru -S wine32 -y
 
+paru -S zen-browser-bin -y
+
 sudo pacman -S audacity -y
 
 sudo pacman -S nmap -y
