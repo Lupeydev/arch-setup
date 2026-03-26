@@ -9,8 +9,6 @@ paru -S android-apktool -y
 
 paru -S uabea -y
 
-paru -S wine32 -y
-
 paru -S zen-browser-bin -y
 
 sudo pacman -S audacity -y
