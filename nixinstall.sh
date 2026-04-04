@@ -1,4 +1,4 @@
-sudo paru -S nix
+sudo paru -S nix --noconfirm
 
 sudo systemctl enable nix-daemon
 sudo systemctl start nix-daemon
@@ -9,4 +9,4 @@ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
 nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
 nix-channel --update
 
-nix-shell '<home-manager>' -A install -b backup
+nix-shell '<home-manager>' -A install

@@ -1,1 +1,1 @@
-sudo pacman -S flatpak
+sudo pacman -S flatpak --noconfirm

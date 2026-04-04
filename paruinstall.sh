@@ -1,7 +1,7 @@
-sudo pacman -S --needed base-devel git
+sudo pacman -S --needed base-devel git --noconfirm
 
-git clone https://aur.archlinux.org/paru.git
+git clone https://aur.archlinux.org/paru.git ~
 
-cd paru
+cd ~/paru
 
 makepkg -si
