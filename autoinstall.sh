@@ -25,5 +25,5 @@ sudo pacman -S fastfetch --noconfirm
 
 sudo pacman -S qt6-tools --noconfirm
 
-flatpak install flathub org.vinegarhq.Sober --noconfirm
+flatpak install flathub org.vinegarhq.Sober
 

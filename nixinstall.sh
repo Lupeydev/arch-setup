@@ -10,3 +10,7 @@ nix-channel --add https://github.com/nix-community/home-manager/archive/master.t
 nix-channel --update
 
 nix-shell '<home-manager>' -A install
+
+
+sudo systemctl enable nix-daemon
+sudo systemctl start nix-daemon
