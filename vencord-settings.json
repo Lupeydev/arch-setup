@@ -4,7 +4,7 @@
         "autoUpdateNotification": true,
         "useQuickCss": true,
         "themeLinks": [
-            "https://raw.githubusercontent.com/Lupeydev/Teme-Vencord-Theme/refs/heads/main/teme.css"
+            "https://raw.githubusercontent.com/Lupeydev/Chillax/refs/heads/main/chillax.theme.css"
         ],
         "eagerPatches": false,
         "enabledThemes": [],
@@ -186,7 +186,8 @@
                 "enableStreamQualityBypass": true,
                 "enableEmojiBypass": true,
                 "transformEmojis": true,
-                "transformStickers": true
+                "transformStickers": true,
+                "transformCompoundSentence": false
             },
             "FakeProfileThemes": {
                 "enabled": false
@@ -195,13 +196,14 @@
                 "enabled": false
             },
             "FavoriteGifSearch": {
-                "enabled": false
+                "enabled": true
             },
             "FixCodeblockGap": {
                 "enabled": true
             },
             "FixImagesQuality": {
-                "enabled": true
+                "enabled": true,
+                "originalImagesInChat": false
             },
             "FixSpotifyEmbeds": {
                 "enabled": true
@@ -603,7 +605,7 @@
             "authenticated": false,
             "url": "https://api.vencord.dev/",
             "settingsSync": false,
-            "settingsSyncVersion": 1774041775431
+            "settingsSyncVersion": 1775600408651
         }
     },
     "quickCss": ""
