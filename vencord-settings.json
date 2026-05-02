@@ -296,7 +296,8 @@
                 "ignoreChannels": "",
                 "ignoreGuilds": "",
                 "logEdits": true,
-                "logDeletes": true
+                "logDeletes": true,
+                "inlineEdits": true
             },
             "MoreQuickReactions": {
                 "enabled": false
@@ -448,7 +449,8 @@
             "ShowHiddenChannels": {
                 "enabled": true,
                 "showMode": 0,
-                "hideUnreads": true
+                "hideUnreads": true,
+                "defaultAllowedUsersAndRolesDropdownState": true
             },
             "ShowHiddenThings": {
                 "enabled": true,
@@ -472,13 +474,13 @@
                 "enabled": false
             },
             "SpotifyControls": {
-                "enabled": false
+                "enabled": true
             },
             "SpotifyCrack": {
-                "enabled": false
+                "enabled": true
             },
             "SpotifyShareCommands": {
-                "enabled": false
+                "enabled": true
             },
             "StartupTimings": {
                 "enabled": false
@@ -553,7 +555,8 @@
                 "enabled": true
             },
             "VolumeBooster": {
-                "enabled": true
+                "enabled": true,
+                "multiplier": 2
             },
             "WebKeybinds": {
                 "enabled": true
@@ -589,6 +592,12 @@
             },
             "WebContextMenus": {
                 "enabled": true
+            },
+            "CharacterCounter": {
+                "enabled": false
+            },
+            "ConcatenatedComponentExtractor": {
+                "enabled": true
             }
         },
         "uiElements": {
@@ -605,7 +614,7 @@
             "authenticated": false,
             "url": "https://api.vencord.dev/",
             "settingsSync": false,
-            "settingsSyncVersion": 1775600408651
+            "settingsSyncVersion": 1777691333674
         }
     },
     "quickCss": ""
