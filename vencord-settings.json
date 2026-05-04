@@ -22,7 +22,7 @@
                 "enabled": true
             },
             "DynamicImageModalAPI": {
-                "enabled": false
+                "enabled": true
             },
             "MemberListDecoratorsAPI": {
                 "enabled": false
@@ -77,7 +77,8 @@
                 "closeAllHomeButton": false,
                 "closeAllFolders": false,
                 "forceOpen": false,
-                "sidebarAnim": true
+                "sidebarAnim": true,
+                "closeOthers": false
             },
             "BetterGifAltText": {
                 "enabled": false
@@ -303,7 +304,7 @@
                 "enabled": false
             },
             "MutualGroupDMs": {
-                "enabled": false
+                "enabled": true
             },
             "NewGuildSettings": {
                 "enabled": false
@@ -432,7 +433,7 @@
                 "enabled": false
             },
             "ServerInfo": {
-                "enabled": false
+                "enabled": true
             },
             "ServerListIndicators": {
                 "enabled": false
@@ -474,10 +475,13 @@
                 "enabled": false
             },
             "SpotifyControls": {
-                "enabled": true
+                "enabled": true,
+                "hoverControls": false
             },
             "SpotifyCrack": {
-                "enabled": true
+                "enabled": true,
+                "noSpotifyAutoPause": true,
+                "keepSpotifyActivityOnIdle": false
             },
             "SpotifyShareCommands": {
                 "enabled": true
@@ -543,7 +547,7 @@
                 "enabled": true
             },
             "ViewIcons": {
-                "enabled": false
+                "enabled": true
             },
             "ViewRaw": {
                 "enabled": false
@@ -614,7 +618,7 @@
             "authenticated": false,
             "url": "https://api.vencord.dev/",
             "settingsSync": false,
-            "settingsSyncVersion": 1777691333674
+            "settingsSyncVersion": 1777863415939
         }
     },
     "quickCss": ""
