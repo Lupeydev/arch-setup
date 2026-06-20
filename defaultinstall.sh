@@ -5,3 +5,5 @@ bash paruinstall.sh
 bash autoinstall.sh
 
 bash wallpaper.sh
+
+bash mprisencesetup.sh
