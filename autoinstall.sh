@@ -31,6 +31,8 @@ sudo pacman -S qt6-tools --noconfirm
 
 sudo pacman -S cmus --noconfirm
 
+sudo pacman -S mprisence --noconfirm
+
 sudo pacman -S tailscale --noconfirm
 
 flatpak install flathub org.vinegarhq.Sober
