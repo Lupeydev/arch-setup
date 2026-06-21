@@ -13,6 +13,8 @@ paru -S uabea --noconfirm
 
 paru -S zen-browser-bin --noconfirm
 
+paru -S unityhub --noconfirm
+
 sudo pacman -S dolphin --noconfirm
 
 sudo pacman -S ark --noconfirm
@@ -38,3 +40,5 @@ sudo pacman -S tailscale --noconfirm
 sudo pacman -S code --noconfirm
 
 flatpak install flathub org.vinegarhq.Sober
+
+wget https://github.com/AssetRipper/AssetRipper/releases/download/1.3.14/AssetRipper_linux_x64.zip
