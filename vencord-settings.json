@@ -4,7 +4,7 @@
         "autoUpdateNotification": true,
         "useQuickCss": true,
         "themeLinks": [
-            "https://raw.githubusercontent.com/Lupeydev/Chillax/refs/heads/main/chillax.theme.css"
+            "https://raw.githubusercontent.com/Lupeydev/Chillax/refs/heads/opti-test/chillax.theme.css"
         ],
         "eagerPatches": false,
         "enabledThemes": [],
