@@ -15,6 +15,8 @@ paru -S zen-browser-bin --noconfirm
 
 paru -S unityhub --noconfirm
 
+paru -S visual-studio-code-bin --noconfirm
+
 sudo pacman -S dolphin --noconfirm
 
 sudo pacman -S ark --noconfirm
@@ -36,8 +38,6 @@ sudo pacman -S qt6-tools --noconfirm
 sudo pacman -S cmus --noconfirm
 
 sudo pacman -S tailscale --noconfirm
-
-sudo pacman -S code --noconfirm
 
 flatpak install flathub org.vinegarhq.Sober
 
