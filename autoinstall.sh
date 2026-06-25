@@ -19,6 +19,8 @@ paru -S visual-studio-code-bin --noconfirm
 
 paru -S spotify --noconfirm
 
+paru -S proton-vpn-cli --noconfirm
+
 sudo pacman -S dolphin --noconfirm
 
 sudo pacman -S ark --noconfirm
