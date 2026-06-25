@@ -17,6 +17,8 @@ paru -S unityhub --noconfirm
 
 paru -S visual-studio-code-bin --noconfirm
 
+paru -S spotify --noconfirm
+
 sudo pacman -S dolphin --noconfirm
 
 sudo pacman -S ark --noconfirm
