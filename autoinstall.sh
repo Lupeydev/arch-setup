@@ -51,3 +51,5 @@ sudo pacman -Syu lib32-mesa vulkan-radeon lib32-vulkan-radeon
 
 flatpak install flathub org.vinegarhq.Sober
 
+flatpak install flathub io.missioncenter.MissionCenter
+
