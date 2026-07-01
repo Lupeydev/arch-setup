@@ -23,6 +23,8 @@ paru -S proton-vpn-cli --noconfirm
 
 paru -S geforcenow-native --noconfirm
 
+paru -S millennium --noconfirm
+
 sudo pacman -S dolphin --noconfirm
 
 sudo pacman -S ark --noconfirm
