@@ -49,6 +49,8 @@ sudo pacman -S tailscale --noconfirm
 
 sudo pacman -Syu lib32-mesa vulkan-radeon lib32-vulkan-radeon
 
+sudo pacman -Syu vulkan-intel intel-media-driver
+
 flatpak install flathub org.vinegarhq.Sober
 
 flatpak install flathub io.missioncenter.MissionCenter
