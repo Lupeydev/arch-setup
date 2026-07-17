@@ -4,19 +4,20 @@
         "autoUpdateNotification": true,
         "useQuickCss": true,
         "themeLinks": [
-            "https://raw.githubusercontent.com/Lupeydev/Chillax/refs/heads/opti-test/chillax.theme.css"
+            "https://raw.githubusercontent.com/Lupeydev/Chillax/refs/heads/main/chillax.theme.css",
+            "https://raw.githubusercontent.com/Lupeydev/Discord-Themes/refs/heads/main/Font.css"
         ],
         "eagerPatches": false,
         "enabledThemes": [],
-        "enableReactDevtools": false,
+        "enableReactDevtools": true,
         "frameless": false,
-        "transparent": false,
+        "transparent": true,
         "winCtrlQ": false,
         "disableMinSize": false,
         "winNativeTitleBar": false,
         "plugins": {
             "ChatInputButtonAPI": {
-                "enabled": false
+                "enabled": true
             },
             "CommandsAPI": {
                 "enabled": true
@@ -90,7 +91,8 @@
                 "enabled": false
             },
             "BetterRoleContext": {
-                "enabled": true
+                "enabled": true,
+                "roleIconFileFormat": "png"
             },
             "BetterRoleDot": {
                 "enabled": false
@@ -145,7 +147,9 @@
                 "enabled": false
             },
             "CrashHandler": {
-                "enabled": true
+                "enabled": true,
+                "attemptToPreventCrashes": true,
+                "attemptToNavigateToHome": false
             },
             "CtrlEnterSend": {
                 "enabled": false
@@ -188,7 +192,11 @@
                 "enableEmojiBypass": true,
                 "transformEmojis": true,
                 "transformStickers": true,
-                "transformCompoundSentence": false
+                "transformCompoundSentence": false,
+                "emojiSize": 48,
+                "hyperLinkText": "{{NAME}}",
+                "useHyperLinks": true,
+                "disableEmbedPermissionCheck": false
             },
             "FakeProfileThemes": {
                 "enabled": false
@@ -241,7 +249,7 @@
                 "enabled": false
             },
             "iLoveSpam": {
-                "enabled": false
+                "enabled": true
             },
             "IgnoreActivities": {
                 "enabled": false
@@ -255,8 +263,8 @@
             },
             "ImageZoom": {
                 "enabled": true,
-                "size": 100,
-                "zoom": 5.6,
+                "size": 950,
+                "zoom": 1,
                 "nearestNeighbour": false,
                 "square": false,
                 "invertScroll": true,
@@ -270,9 +278,6 @@
                 "enabled": false
             },
             "KeepCurrentChannel": {
-                "enabled": false
-            },
-            "LastFMRichPresence": {
                 "enabled": false
             },
             "LoadingQuotes": {
@@ -298,7 +303,10 @@
                 "ignoreSelf": false
             },
             "MessageLinkEmbeds": {
-                "enabled": true
+                "enabled": true,
+                "listMode": "blacklist",
+                "idList": "",
+                "automodEmbeds": "never"
             },
             "MessageLogger": {
                 "enabled": true,
@@ -385,20 +393,24 @@
                 "onboarding": true
             },
             "PermissionsViewer": {
-                "enabled": true
+                "enabled": true,
+                "permissionsSortOrder": 0
             },
             "petpet": {
                 "enabled": false
             },
             "PictureInPicture": {
-                "enabled": true
+                "enabled": true,
+                "loop": true
             },
             "PinDMs": {
                 "enabled": true,
                 "userBasedCategoryList": {
-                    "1004527420730253332": []
+                    "1004527420730253332": [],
+                    "1276700582840893590": []
                 },
-                "canCollapseDmSection": false
+                "canCollapseDmSection": false,
+                "pinOrder": 0
             },
             "PlainFolderIcon": {
                 "enabled": false
@@ -423,7 +435,7 @@
                 "enabled": false
             },
             "ReadAllNotificationsButton": {
-                "enabled": false
+                "enabled": true
             },
             "RelationshipNotifier": {
                 "enabled": true,
@@ -431,7 +443,8 @@
                 "groups": true,
                 "servers": true,
                 "friends": true,
-                "friendRequestCancels": true
+                "friendRequestCancels": true,
+                "notices": false
             },
             "ReplaceGoogleSearch": {
                 "enabled": false
@@ -495,10 +508,13 @@
                 "enabled": false
             },
             "SilentMessageToggle": {
-                "enabled": false
+                "enabled": true,
+                "persistState": false
             },
             "SilentTyping": {
-                "enabled": false
+                "enabled": true,
+                "isEnabled": true,
+                "showIcon": false
             },
             "SortFriendRequests": {
                 "enabled": true,
@@ -506,7 +522,9 @@
             },
             "SpotifyControls": {
                 "enabled": true,
-                "hoverControls": false
+                "hoverControls": false,
+                "useSpotifyUris": false,
+                "previousButtonRestartsTrack": true
             },
             "SpotifyCrack": {
                 "enabled": true,
@@ -528,7 +546,8 @@
             "SuperReactionTweaks": {
                 "enabled": true,
                 "unlimitedSuperReactionPlaying": false,
-                "superReactionPlayingLimit": 20
+                "superReactionPlayingLimit": 20,
+                "superReactByDefault": true
             },
             "TextReplace": {
                 "enabled": false
@@ -543,7 +562,8 @@
                 "enabled": true,
                 "includeMutedChannels": false,
                 "includeCurrentChannel": true,
-                "indicatorMode": 3
+                "indicatorMode": 3,
+                "includeBlockedUsers": false
             },
             "TypingTweaks": {
                 "enabled": true,
@@ -585,10 +605,13 @@
                 "enabled": false
             },
             "VencordToolbox": {
-                "enabled": true
+                "enabled": true,
+                "showPluginMenu": true
             },
             "ViewIcons": {
-                "enabled": true
+                "enabled": true,
+                "format": "webp",
+                "imgSize": "1024"
             },
             "ViewRaw": {
                 "enabled": false
@@ -597,7 +620,9 @@
                 "enabled": true
             },
             "VoiceMessages": {
-                "enabled": true
+                "enabled": true,
+                "noiseSuppression": true,
+                "echoCancellation": true
             },
             "VolumeBooster": {
                 "enabled": true,
@@ -647,6 +672,12 @@
             },
             "NoMiddleClickPaste": {
                 "enabled": false
+            },
+            "MusicRichPresence": {
+                "enabled": false
+            },
+            "TenorGifSearch": {
+                "enabled": false
             }
         },
         "uiElements": {
@@ -663,7 +694,7 @@
             "authenticated": false,
             "url": "https://api.vencord.dev/",
             "settingsSync": false,
-            "settingsSyncVersion": 1782083758429
+            "settingsSyncVersion": 1784241718675
         },
         "windowsMaterial": "none"
     },
