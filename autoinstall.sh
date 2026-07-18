@@ -47,6 +47,8 @@ sudo pacman -S cmus --noconfirm
 
 sudo pacman -S tailscale --noconfirm
 
+sudo pacman -S openrgb --noconfirm
+
 sudo pacman -Syu lib32-mesa vulkan-radeon lib32-vulkan-radeon
 
 sudo pacman -Syu vulkan-intel intel-media-driver
